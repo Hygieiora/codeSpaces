@@ -56,7 +56,6 @@ export default function SignUp() {
             <SecondLoginImage />
         </div>
 
-
     </div>
   )
 }
