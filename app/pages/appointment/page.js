@@ -5,8 +5,8 @@ import cover from '../public/banner-2.jpg'
 import { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import Header from './(components)/Header'
-import Sidebar from './(components)/Sidebar'
+import Header from '../../(components)/Header.jsx'
+import Sidebar from '../../(components)/Sidebar.jsx'
 
 const appointment = () => {
   const handleSubmit = () => {
