@@ -100,7 +100,7 @@ const LoginForm = () => {
                 Create account
               </button>
             </Link>
-            <Link href="/pages/therapists">
+            <Link href="/pages/symptoms">
               <button
                 type="submit"
                 className="px-10 py-2 mr-8 bg-blue-500 text-black rounded-md hover:bg-blue-600"

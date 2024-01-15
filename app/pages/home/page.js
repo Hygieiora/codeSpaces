@@ -74,7 +74,7 @@ export default function Home() {
                 Welcome to the commnunity
               </h1>
               <p>Your mental health, our priority</p>
-              <Link href={"/pages/problem"}>
+              <Link href={"/pages/symptoms"}>
                 <button className="relative bg-blue-700 rounded-[80px] w-60 flex flex-row items-center mt-10 justify-center p-4 text-white box-border text-center text-[20]">
                   <div className="relative">You are just a call away</div>
                 </button>
