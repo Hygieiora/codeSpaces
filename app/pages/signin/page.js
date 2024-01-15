@@ -100,10 +100,10 @@ const LoginForm = () => {
                 type="submit"
                 className="px-6 py-2 ml-6 bg-gray-300 text-black rounded-md hover:bg-gray-600"
               >
-                Create account
+                <a href="pages/signup">Create account</a>
               </button>
             </Link>
-            <Link href="/pages/symptoms">
+            <Link href="/pages/home">
               <button
                 type="submit"
                 className="px-10 py-2 mr-8 bg-blue-500 text-black rounded-md hover:bg-blue-600"
