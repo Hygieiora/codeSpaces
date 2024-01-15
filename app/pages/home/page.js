@@ -1,9 +1,6 @@
-"use client"
+"use client";
 import { PlayCircleOutline } from "@mui/icons-material";
 import Link from "next/link";
-import WeCareImage from "../public/wecareimage.png";
-import HappyForYou from "../public/happyforyou.png";
-import Welcome from "../public/welcome.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -32,7 +29,7 @@ export default function Home() {
           <div className=" flex justify-center items-center rounded-lg  ">
             <Image
               alt="we care"
-              src={WeCareImage}
+              src="/wecareimage.png"
               className=" object-contain aspect-auto  "
             />
           </div>
@@ -58,7 +55,7 @@ export default function Home() {
             <div className="  rounded-lg relative  flex justify-center items-center">
               <Image
                 alt="happy for you image"
-                src={HappyForYou}
+                src="/happyforyou.png"
                 className=" object-contain  aspect-auto h-1/2 w-1/2 sm:h-fit sm:w-fit rounded-lg bg-black bg-opacity-50"
               />
               <div className="absolute bottom-0 p-2 bg-black bg-opacity-60 text-center rounded-lg w-1/2 sm:w-full">
@@ -67,7 +64,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" relative flex-1 text-white ">
-            <Image alt="welcome" src={Welcome} className="" />
+            <Image alt="welcome" src="/welcome.png" className="" />
             <div className="absolute bottom-0 p-2 bg-black bg-opacity-40 w-full  flex flex-col gap-2">
               <div className=" flex gap-2 ">
                 <h1>2 Aug 2023</h1>
