@@ -5,7 +5,7 @@ import cover from '../public/banner-2.jpg'
 import { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import Header from '../../(components)/Header.jsx'
+import Header from '../../(components)/Header.jsx'x
 import Sidebar from '../../(components)/Sidebar.jsx'
 import Footer from '../../(components)/Footer.jsx'
 
@@ -127,6 +127,7 @@ const appointment = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
