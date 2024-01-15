@@ -7,6 +7,7 @@ import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import Header from '../../(components)/Header.jsx'
 import Sidebar from '../../(components)/Sidebar.jsx'
+import Footer from '../../(components)/Footer.jsx'
 
 const appointment = () => {
   const handleSubmit = () => {
@@ -50,6 +51,7 @@ const appointment = () => {
 
   return (
     <div className="mx-4 my-2 mb-10">
+    <Header />
       <div className="flex">
         <div className="h-screen hidden lg:flex w-1/5">
           <Sidebar sidebarOpen={true}/>
