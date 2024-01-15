@@ -1,13 +1,13 @@
-"use client"
+"use client";
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
-  ArrowPathIcon,
+  // ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
+  // ChartPieIcon,
   CursorArrowRaysIcon,
   FingerPrintIcon,
-  SquaresPlusIcon,
+  // SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import {
