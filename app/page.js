@@ -1,5 +1,5 @@
 "use client";
-import Header from "../app/(components)/header";
+import Header from "../../app/(components)/header";
 import SideBar from "../app/(components)/sidebar";
 // import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Signup from "../app/pages/signup/signup";
