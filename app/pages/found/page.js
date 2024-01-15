@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
-import Header from "../../(components)/header";
-import SideBar from "../../(components)/sidebar";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Header from "app/(components)/header";
+import SideBar from "app/(components)/sidebar.js";
+// import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/solid";
+import { IconName } from "@heroicons/react/outline";
 export default function Found() {
   return (
     <>
