@@ -1,14 +1,17 @@
+import Image from "next/image";
 export default function SideBar() {
   return (
     <div className="hidden md:block h-full fixed md-hidden bg-white p-3 space-y-2 w-60  ">
       <div className="flex items-center p-2 space-x-4">
-        <img
+        <Image
           src="https://source.unsplash.com/100x100/?portrait"
           alt=""
           className="w-8 h-8 rounded-full"
+          width={100}
+          height={100}
         />
         <div>
-          <h2 className="text-xs font-semibold">Handsome Musah</h2>
+          <h2 className="text-xs font-semibold">New User.</h2>
           <span className="flex items-center space-x-1">
             <a
               rel="noopener noreferrer"
@@ -28,7 +31,7 @@ export default function SideBar() {
               href="#"
               className="flex items-center p-2 space-x-3 rounded-md"
             >
-              <img src="/therapy.png" className="w-6 h-6" />
+              <Image src="/therapy.png" className="w-6 h-6" />
 
               <span>Therapists</span>
             </a>
@@ -39,7 +42,12 @@ export default function SideBar() {
               href="#"
               className="flex items-center p-2 space-x-3 rounded-md"
             >
-              <img src="/community.png" className="w-6 h-6" />
+              <Image
+                src="/community.png"
+                className="w-6 h-6"
+                width={128}
+                height={128}
+              />
               <span>Community</span>
             </a>
           </li>
@@ -49,7 +57,12 @@ export default function SideBar() {
               href="#"
               className="flex items-center p-2 space-x-3 rounded-md"
             >
-              <img src="/calender.png" className="w-6 h-6" />
+              <Image
+                src="/calender.png"
+                className="w-6 h-6"
+                width={128}
+                height={128}
+              />
               <span>Appointments</span>
             </a>
           </li>
@@ -59,7 +72,12 @@ export default function SideBar() {
               href="#"
               className="flex items-center p-2 space-x-3 rounded-md"
             >
-              <img src="/messages.png" className="w-6 h-6" />
+              <Image
+                src="/messages.png"
+                className="w-6 h-6"
+                width={128}
+                height={128}
+              />
               <span>Messages</span>
             </a>
           </li>
@@ -69,7 +87,12 @@ export default function SideBar() {
               href="#"
               className="flex items-center p-2 space-x-3 rounded-md"
             >
-              <img src="/books.png" className="w-6 h-6" />
+              <Image
+                src="/books.png"
+                className="w-6 h-6"
+                width={128}
+                height={128}
+              />
               <span>Books</span>
             </a>
           </li>
