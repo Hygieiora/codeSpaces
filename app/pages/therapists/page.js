@@ -147,9 +147,11 @@ export default function Home() {
                 <div className="text-amber-500 text-xs font-bold text-right underline leading-relaxed">
                   {section.title}
                 </div>
-                <img
+                <Image
                   className="w-24 h-24 rounded-full mx-auto mt-2"
                   src={section.imageUrl}
+                  width={91}
+                  height={96}
                   alt="Portrait"
                 />
                 <div className="text-black text-xl font-bold font-inter mt-2 text-center">
@@ -158,9 +160,11 @@ export default function Home() {
                 <div className="text-black text-opacity-60 text-lg font-normal font-poppins leading-relaxed text-center">
                   {section.role}
                 </div>
-                <img
+                <Image
                   className="w-6 h-6 mx-auto mt-1"
                   src={section.locationIcon}
+                  width={25}
+                  height={25}
                   alt="Location Icon"
                 />
                 <div className="text-black text-base font-normal font-poppins leading-relaxed text-center">
