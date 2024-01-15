@@ -1,7 +1,7 @@
 "use client";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import Header from "../../components/header";
-import SideBar from "../../components/sidebar";
+import Header from "../../(components)/Header";
+import SideBar from "../../(components)/Sidebar";
 
 const itemList = [
   {
