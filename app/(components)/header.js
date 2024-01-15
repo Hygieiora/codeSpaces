@@ -25,16 +25,13 @@ const Header = () => {
               className=" h-20 w-20 aspect-auto"
             />
           </div>
-          <div className=" flex flex-col justify-center items-center gap-2">
+          <div className=" flex flex-col justify-center items-center gap-1">
             <h1 className=" text-blue-600 text-base sm:text-xl">HYGIEIORA</h1>
             <h1 className="text-sm sm:text-base">Conversations that heal</h1>
           </div>
         </div>
         <div className="  hidden sm:gap-2 sm:flex sm:flex-row sm:justify-center sm:items-center">
-          <Link
-            href="/"
-            className={`${ "border-b-4 border-blue-600"}`}
-          >
+          <Link href="/" className={`${"border-b-4 border-blue-600"}`}>
             Home
           </Link>
           <Link href="/" className={`${"border-b-4 border-blue-600"}`}>
@@ -43,10 +40,7 @@ const Header = () => {
           <Link href="/" className={`${"border-b-4 border-blue-600"}`}>
             Support
           </Link>
-          <Link
-            href="/"
-            className={`${"border-b-4 border-blue-600"}`}
-          >
+          <Link href="/" className={`${"border-b-4 border-blue-600"}`}>
             Contact Us
           </Link>
         </div>
