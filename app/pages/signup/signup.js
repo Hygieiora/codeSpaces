@@ -118,21 +118,21 @@ const AccountForm = () => {
           {/* Terms and Conditions */}
           <div className="flex flex-col items-center justify-center text-sm text-gray-500">
             <p>
-              By clicking "Create Account", you accept the
+              By clicking &quot;Create Account&quot;, you accept the
               <Link
                 href="/pages/terms"
                 className="text-blue-500 hover:underline"
               >
                 Terms
               </Link>
-              , and ,
+              &nbsp;, and&nbsp;,
               <Link
                 href="/pages/privacy"
                 className="text-blue-500 hover:underline"
               >
                 Privacy Policy
-              </Link>{" "}
-              of Hygieiora.
+              </Link>
+              &nbsp;of Hygieiora.
             </p>
           </div>
           {/* Submit button */}

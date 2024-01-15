@@ -15,7 +15,7 @@ export default function Symptoms() {
             Hi, how are you feeling today?
           </h4>
           <p className="text-gray-700 font-poppins text-sm mb-4">
-            Let's connect you to a professional.
+            Let&apos;s connect you to a professional.
           </p>
           <form
             // onSubmit={handleSubmit}

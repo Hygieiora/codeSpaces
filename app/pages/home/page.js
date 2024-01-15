@@ -19,7 +19,7 @@ export default function Home() {
                 <span className=" text-blue-700"> not to be okay</span>
               </h1>
               <h1 className=" font-bold text-base sm:text-lg">
-                Don't hide behind your pain, tell someone your pain
+                Don&apos;t hide behind your pain, tell someone your pain
               </h1>
 
               <p>
