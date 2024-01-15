@@ -31,7 +31,12 @@ export default function SideBar() {
               href="#"
               className="flex items-center p-2 space-x-3 rounded-md"
             >
-              <Image src="/therapy.png" className="w-6 h-6" />
+              <Image
+                src="/therapy.png"
+                className="w-6 h-6"
+                width={128}
+                height={128}
+              />
 
               <span>Therapists</span>
             </a>

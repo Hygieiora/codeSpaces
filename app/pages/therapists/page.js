@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 // import Header from "app/(components)/header.js";
 import SideBar from "app/(components)/sidebar.js";
 // import ChevronDownIcon from "@mui/icons-material/ChevronDown";

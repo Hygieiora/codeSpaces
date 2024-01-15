@@ -30,7 +30,6 @@ const LoginForm = () => {
         <h2 className="text-2xl font-bold text-gray-900">Sign In</h2>
         <form onSubmit={handleLogin} className="mt-4">
           {/* Input fields with appropriate types and Tailwind CSS styling */}
-
           {/* Email address */}
           <div className="relative mb-4">
             <input
@@ -73,7 +72,6 @@ const LoginForm = () => {
               Password
             </label>
           </div>
-
           {/* Remember me and Forgot Password */}
           <div className="flex justify-between items-center text-sm">
             <label className="flex items-center ml-8">
@@ -92,50 +90,50 @@ const LoginForm = () => {
               Forgot Password?
             </a>
           </div>
-
-          {/* Create account and Sign in buttons */}
+          {/* // Create account and Sign in buttons */}
           <div className="relative mb-4 py-3 flex justify-between items-center">
-            <Link href="">
+            {/* <Link href="/pages/signup"> */}
+            <a href="/pages/signup">
               <button
-                type="submit"
+                type="button"
                 className="px-6 py-2 ml-6 bg-gray-300 text-black rounded-md hover:bg-gray-600"
               >
-                <a href="pages/signup">Create account</a>
+                Create Account
+                {/* Create account */}
               </button>
-            </Link>
-            <Link href="/pages/home">
-              <button
-                type="submit"
-                className="px-10 py-2 mr-8 bg-blue-500 text-black rounded-md hover:bg-blue-600"
-              >
-                Sign in
-              </button>
-            </Link>
+            </a>
+            {/* </Link> */}
+            {/* <Link > */}
+
+            <button
+              type="submit"
+              className="px-10 py-2 mr-8 bg-blue-500 text-black rounded-md hover:bg-blue-600"
+            >
+              <a href="/pages/home">Sign in</a>
+            </button>
+
+            {/* </Link> */}
           </div>
+          {/* // Continue with Google button */}
+          <div className="flex flex-col items-center">
+            <span className="text-sm text-gray-500">OR</span>
+            {/* <Link href="/pages/symptoms"> */}
 
-          {/* Note about completing profile */}
-          <p className="text-xs text-center text-gray-500">
-            *make sure you have completed your profile to access all features
-          </p>
+            <button className="flex items-center justify-center px-4 py-2 border rounded-md border-gray-300 shadow-sm hover:shadow-md mt-2">
+              <a href="/pages/home">
+                <Image
+                  src="/googleLogo.jpg"
+                  alt="Google Logo"
+                  width={20}
+                  height={20}
+                />
+              </a>
+              <span className="ml-2 text-sm font-medium text-gray-700">
+                Continue with Google
+              </span>
+            </button>
 
-          <div className="flex flex-col items-center space-y-3 p-3">
-            {/* Continue with Google button */}
-            <div className="flex flex-col items-center">
-              <span className="text-sm text-gray-500">OR</span>
-              <button className="flex items-center justify-center px-4 py-2 border rounded-md border-gray-300 shadow-sm hover:shadow-md mt-2">
-                <a href="/pages/symptoms">
-                  <Image
-                    src="/googleLogo.jpg"
-                    alt="Google Logo"
-                    width={20}
-                    height={20}
-                  />
-                </a>
-                <span className="ml-2 text-sm font-medium text-gray-700">
-                  Continue with Google
-                </span>
-              </button>
-            </div>
+            {/* </Link> */}
           </div>
         </form>
       </div>
