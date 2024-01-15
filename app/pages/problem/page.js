@@ -1,6 +1,6 @@
 "use client";
-import Footer from "../../app/(components)/Footer";
-import Header from "../../app/(components)/header";
+import Footer from "app/(components)/Footer";
+import Header from "app/(components)/Header";
 import { useRouter } from "next/navigation";
 
 export default function CenteredChat() {
