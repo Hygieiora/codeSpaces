@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Header from "@/app/(components)/header";
+import Footer from "@/app/(components)/Footer";
 // import googleLogo from "../../public/googleLogo.jpg"; // Ensure you have the Google logo in your public folder
 
 // Functional component for the account creation form
@@ -22,6 +24,7 @@ const AccountForm = () => {
   // Form layout with Tailwind CSS classes
   return (
     <>
+      <Header />
       <div className="max-w-md mx-auto bg-white p-5 rounded-md shadow-sm">
         <h2 className="text-blue-600 font-bold text-3xl mt-20 leading-normal">
           START YOUR JOURNEY
@@ -174,6 +177,7 @@ const AccountForm = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </>
   );
 };

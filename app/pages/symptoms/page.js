@@ -1,11 +1,14 @@
+import SideBar from "@/app/(components)/sidebar";
 import Footer from "/app/(components)/Footer";
 import Header from "/app/(components)/header";
-import Link from "next/link";
+// import Link from "next/link";
+// import Header from "@/app/(components)/header";
 
 export default function Symptoms() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
+      <SideBar />
       <div className="flex h-screen items-center justify-center bg-gray-100">
         <div className="relative rounded-lg shadow-lg p-6 bg-white w-96">
           <h4 text-xl flex flex-col items-center justify-center>
@@ -28,7 +31,7 @@ export default function Symptoms() {
               type="submit"
               className="text-white bg-blue-500 hover:bg-blue-700 rounded-full p-2 ml-2"
             >
-              <a href="/pages/call">Send</a>
+              <a href="/pages/therapists">Send</a>
             </button>
           </form>
         </div>

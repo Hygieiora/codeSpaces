@@ -1,7 +1,7 @@
 "use client";
-// import Header from "../app/(components)/header";
-import Signup from "../app/pages/signup/signup";
-import Footer from "app/(components)/Footer.jsx";
+// import Header from "/app/(components)/header";
+import Signup from "/app/pages/signup/signup";
+// import Footer from "app/(components)/Footer.jsx";
 // import Connect from "./pages/connect";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       {/* <Header /> */}
       <Signup />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

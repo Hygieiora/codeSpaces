@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Header from "@/app/(components)/header";
+import Footer from "@/app/(components)/Footer";
 // import googleLogo from "../../public/googleLogo.jpg"; // Ensure you have the Google logo in your public folder
 
 // Functional component for the account creation form
@@ -20,6 +22,7 @@ const LoginForm = () => {
   // Form layout with Tailwind CSS classes
   return (
     <>
+      <Header />
       <div className="max-w-md mx-auto bg-white p-5 rounded-md shadow-sm">
         <h2 className="text-blue-600 font-bold text-3xl mt-20 leading-normal">
           WELCOME BACK
@@ -120,12 +123,14 @@ const LoginForm = () => {
             <div className="flex flex-col items-center">
               <span className="text-sm text-gray-500">OR</span>
               <button className="flex items-center justify-center px-4 py-2 border rounded-md border-gray-300 shadow-sm hover:shadow-md mt-2">
-                <Image
-                  src="/googleLogo.jpg"
-                  alt="Google Logo"
-                  width={20}
-                  height={20}
-                />
+                <a href="/pages/symptoms">
+                  <Image
+                    src="/googleLogo.jpg"
+                    alt="Google Logo"
+                    width={20}
+                    height={20}
+                  />
+                </a>
                 <span className="ml-2 text-sm font-medium text-gray-700">
                   Continue with Google
                 </span>
@@ -134,6 +139,7 @@ const LoginForm = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </>
   );
 };
